@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1000px;
+    height: 2000;
+    margin-left: 200px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.data input{
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.data input[type="text"], .data input[type="email"], .data input[type="password"] {
+    width: auto;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    width: quto;
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.data h1{
+    margin-bottom: 50px;
+}
+
+/*table*/
+
+.table-container h1{
+    margin-bottom: 50px;
+}
+
+table {
+    border-collapse: collapse;
+    border-bottom-left-radius: 10px;
+    text-align: left;
+}
+
+.styled-table th{
+    border: solid 1px black;
+    padding-right: 80px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    padding-left: 12px;
+    background-color: #04AA6D;
+    color: white;
+}
+
+td {
+    border: solid 1px black;
+    padding-right: 80px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    padding-left: 12px;
+}
